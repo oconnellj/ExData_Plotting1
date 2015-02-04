@@ -1,5 +1,15 @@
 ## Introduction
 
+This repository contains my answers to the data exploratory assignment 
+that is described below. There are 4 R files and 4 png files, one for each
+part of the assignment. Each R script unzips the file containing the data,
+loads the data in csv format, extracts those rows which have 2007-02-01
+or 2007-02-02 in the Date column, and then creates the appropriate plot 
+and outputs it to a png file. The R scripts assume that the original zipped 
+data is in the local directory.
+
+## Assignment
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
